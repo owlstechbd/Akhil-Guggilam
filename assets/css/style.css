@@ -5232,7 +5232,7 @@ h6, .h6 {
       margin-right: 15px; }
 
 .project-details-info {
-  padding: 40px 60px;
+  padding: 20px 20px;
   border-radius: 15px;
   background-color: var(--primary-color); }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -6854,4 +6854,8 @@ button.filter-btn {
 
 .mar-100{
   margin-bottom: 90px;
+}
+.center-btn{
+  width: 100%;
+  text-align: center;
 }
