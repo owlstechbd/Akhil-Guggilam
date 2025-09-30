@@ -527,7 +527,7 @@ a.theme-btn {
   background-color: #131313;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../images/preloader.gif); }
+  background-image: url(../images/preloader-logo.png); }
 
 /* Pagination */
 .pagination {
@@ -6759,7 +6759,7 @@ button.filter-btn {
 .skill-filters{
   display: flex;
   margin-bottom: 40px;
-
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -6794,7 +6794,7 @@ button.filter-btn {
     color: #fff;
     margin-right: 13px;
     background: transparent;
-    font-size: 14px;
+    font-size: 15px;
 }
 .footer-img{
   width: 100%;
@@ -6807,7 +6807,7 @@ button.filter-btn {
 }
 .footer-link ul li img{
   width: 60px;
-  margin: 0 25px;
+  margin: 0 50px;
 }
 .coustom-footer{
   padding: 40px 0 70px;
@@ -6819,7 +6819,7 @@ button.filter-btn {
   justify-content: center;
 }
 .footer-list ul li{
-  margin: 0 25px;
+  margin: 0 50px;
 }
 
 .contact-hero{
@@ -6828,6 +6828,9 @@ button.filter-btn {
 }
 .contact-hero-content{
   margin-bottom: 150px;
+}
+.contact-hero-content h1 img{
+  width: 90px;
 }
 .contact-box{
   width: 100%;
@@ -6858,4 +6861,22 @@ button.filter-btn {
 .center-btn{
   width: 100%;
   text-align: center;
+}
+
+
+@media (max-width:600px){
+  .footer-list ul{
+    flex-wrap: wrap;
+  }
+  .footer-link ul li img{
+   width: 30px;
+  }
+
+  .footer-list ul li{
+  margin: 0 20px;
+}
+
+.footer-link ul li img{
+  margin: 0 15px;
+}
 }
